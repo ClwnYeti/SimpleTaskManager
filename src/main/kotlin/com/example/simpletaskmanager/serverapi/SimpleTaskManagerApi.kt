@@ -1,11 +1,11 @@
-package com.example.SimpleTaskManager
+package com.example.simpletaskmanager.serverapi
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class SimpleTaskManagerApplication
+class SimpleTaskManagerApi
 
 fun main(args: Array<String>) {
-    runApplication<SimpleTaskManagerApplication>(*args)
+    runApplication<SimpleTaskManagerApi>(*args)
 }
